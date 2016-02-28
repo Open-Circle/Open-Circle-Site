@@ -1,13 +1,59 @@
 .container{
 	font-size: 18px;
-	width: 95%;
+	width: 100%;
+	padding: 0;
 }
 .profileInfo{ 
 	font-size: 20px;
+	color:white	;
+	background-color: #dd5555;
+	/*padding: 10px;*/
 	}
 .button{
 	font-size: 10px;
 }
 input[type=text]:focus {
     background-color: #eeeedd;
+}
+.pad{
+	/*padding-top: 10px;*/
+}
+.mi{
+	/*padding-left: 10px;
+	padding-right: 10px;*/
+}
+.segment{
+	background-color: dddddd;
+	border-top-width: 3px;
+	border-top-style: solid;
+	border-top-color: ee5555;
+	border-right-style: solid;
+	border-right-width: 25px;
+	border-right-color: ee5555;
+	vertical-align: middle;
+	border-right: 0;
+}
+div{
+	/*height: 100%;
+	display: flex;*/
+}
+.col{
+	vertical-align: middle;
+	/*flex: 1;*/
+}
+.row{
+	vertical-align: middle;
+	/*flex: 1;*/
+}
+a:link.a{
+	color: white;
+}
+a:visited.a{
+	color: #dddddd;
+}
+a:hover.a{
+	color: #cccccc;
+}
+a.active.a{
+	color: white;
 }

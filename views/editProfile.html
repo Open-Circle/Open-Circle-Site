@@ -7,13 +7,13 @@
 </head>
 <body>
 	<div class="container">
-		<div class="well">	
+		<div class="jumbotron">	
 			<div class="row profileInfo">
 				<div class="col-sm-3 col-md-3 col-lg-3">
 					Profile Pic<br>
-						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Change</button>
+						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#PictureModal">Change</button>
 						<!-- Modal -->
-							<div id="myModal" class="modal fade" role="dialog">
+							<div id="PictureModal" class="modal fade" role="dialog">
   								<div class="modal-dialog">	
     							<!-- Modal content-->
 	    							<div class="modal-content">
@@ -22,7 +22,7 @@
         									<h4 class="modal-title">Upload New Picture</h4>
       						  			</div>
       						  			<div class="modal-body">
-	      						    		<textarea rows="1" cols="60">File Uploader</textarea>
+	      						    		<textarea rows="1" cols="40">File Uploader</textarea>
       						  			</div>
       						  			<div class="modal-footer">
       						  				<button type="submit" class="btn btn-default" data-dismiss="modal">Submit</button>
@@ -34,9 +34,9 @@
 				</div>	
 				<div class="col-sm-3 col-md-3 col-lg-3">
 					Username<br>
-						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Change</button>
+						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#UsernameModal">Change</button>
 						<!-- Modal -->
-							<div id="myModal" class="modal fade" role="dialog">
+							<div id="UsernameModal" class="modal fade" role="dialog">
   								<div class="modal-dialog">	
     							<!-- Modal content-->
 	    							<div class="modal-content">
@@ -70,9 +70,9 @@
 					<div class="panel-heading"><b>Description</b></div>
 					<div class="panel-body">
 						Name<br>
-						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Edit</button>
+						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#NameModal">Edit</button>
 						<!-- Modal -->
-							<div id="myModal" class="modal fade" role="dialog">
+							<div id="NameModal" class="modal fade" role="dialog">
   								<div class="modal-dialog">	
     							<!-- Modal content-->
 	    							<div class="modal-content">
@@ -94,9 +94,9 @@
 					</div>
 					<div class="panel-body">
 						Description Body<br>
-						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Edit</button>
+						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#DesModal">Edit</button>
 						<!-- Modal -->
-							<div id="myModal" class="modal fade" role="dialog">
+							<div id="DesModal" class="modal fade" role="dialog">
   								<div class="modal-dialog">	
     							<!-- Modal content-->
 	    							<div class="modal-content">
@@ -122,15 +122,15 @@
 					<div class="panel-heading"><b>Known Languages</b></div>
 					<div class="panel-body">
 						<ul>
-							<li><button class="btn btn-danger btn-xs" >-</button>Lang 1</li>
-							<li><button class="btn btn-danger btn-xs" >-</button>Lang 2</li>
-							<li><button class="btn btn-danger btn-xs" >-</button>Lang 3</li>
-							<li><button class="btn btn-danger btn-xs" >-</button>Lang 4</li>
+							<li><button class="btn btn-danger btn-xs" >-</button>  Lang 1</li>
+							<li><button class="btn btn-danger btn-xs" >-</button>  Lang 2</li>
+							<li><button class="btn btn-danger btn-xs" >-</button>  Lang 3</li>
+							<li><button class="btn btn-danger btn-xs" >-</button>  Lang 4</li>
 
 						</ul>
-						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">+Add language</button>
+						<button type="button" class="btn btn-default" data-toggle="modal" data-target="#LangModal">+Add language</button>
 						<!-- Modal -->
-							<div id="myModal" class="modal fade" role="dialog">
+							<div id="LangModal" class="modal fade" role="dialog">
   								<div class="modal-dialog">
 
     						<!-- Modal content-->
@@ -157,13 +157,12 @@
 					<div class="panel-heading"><b>Links</b></div>
 					<div class="panel-body">
 						<ul>
-							<li><button class="btn btn-danger btn-xs">-</button>Link to Resume</li>
-							<li><button class="btn btn-danger btn-xs" >-</button>Link to personal site</li>
-							<li><button class="btn btn-danger btn-xs" >-</button>Links to outside personal prjects</li>
-						</ul>
-							<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">+Add Link</button>
+							<li><button type="button" class="btn btn-default btn-circle"><i class="glyphicon glyphicon-warning"></i></button>  Link to Resume</li>
+							<li><button class="btn btn-danger btn-xs">-</button>  Link to personal site</li>
+							<li><button class="btn btn-danger btn-xs">-</button>  Links to outside personal prjects</li>
+							<a href="editProfile.html" class="btn bnt-default" role="button">+ Add Link</a>
 							<!-- Modal -->
-							<div id="myModal" class="modal fade" role="dialog">
+							<div id="LinkModal" class="modal fade" role="dialog">
   							<div class="modal-dialog">
 
     						<!-- Modal content-->
@@ -184,6 +183,8 @@
     							</div>
   							</div>
 							</div>
+							
+						</ul>
 					</div>
 				</div>
 			</div>
