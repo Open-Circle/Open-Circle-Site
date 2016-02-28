@@ -12,7 +12,7 @@
 	margin-left: -16%;
 }
 .navbar-brand{
-	padding:1px 15px; 
+	padding:1px 15px;
 }
 .top-down{
 	margin-top: 10%;
@@ -39,7 +39,7 @@ nav{
 
 background: #fd746c; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #fd746c , #ff9068); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #fd746c , #ff9068); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+background: linear-gradient(to left, #fd746c , #ff9068); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .navbar-fixed-top{
 	/*border-bottom: solid 3px red;     */
@@ -178,7 +178,7 @@ button.minimize:hover i{
 	height: 100%;
 	background: rgba(0,0,0,0.9);
 	z-index: 4;
-}	
+}
 #dashboard .content .no-show .availabilityStatus i{
 	color:white;
 	margin-top: 15%;
@@ -195,7 +195,7 @@ button.minimize:hover i{
 	background-size: cover;
 }
 #dashboard #problems,#dashboard #openSource,#dashboard #wall{
-	height:100%;	
+	height:100%;
 	padding:0 1%;
 }
 #dashboard #problems{
@@ -212,7 +212,7 @@ button.minimize:hover i{
 background: #a73737; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #a73737 , #7a2828); /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #a73737 , #7a2828); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-                   
+
 }
 #wall #inProgressProjects .thumbnail{
 
@@ -225,7 +225,7 @@ background: linear-gradient(to left, #1F1C2C , #928DAB); /* W3C, IE 10+/ Edge, F
 #wall #availableProjects .thumbnail:nth-child(odd){
 background: #EC6F66; /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #EC6F66 , #F3A183); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #EC6F66 , #F3A183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */           
+background: linear-gradient(to left, #EC6F66 , #F3A183); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #wall #availableProjects .thumbnail{
 	background: #16a085;
@@ -258,5 +258,3 @@ background: linear-gradient(to left, #EC6F66 , #F3A183); /* W3C, IE 10+/ Edge, F
 	letter-spacing: 2px;
 	box-shadow: none;
 }
-
-
