@@ -1,0 +1,101 @@
+.container{
+	padding:0;
+	width:100%;
+	text-align: center;
+}
+.row{
+	padding:2% 5%;
+}
+.btn,a{
+	color:white;
+	border:solid 1px white;
+}
+a.btn:hover{
+	background:white;
+	color: black;
+	cursor: pointer;
+}
+#profile{
+	min-height: 20vh;
+	margin-bottom: 0;
+}
+#dashboard{
+	height:80vh;
+	/*z-index: 0;*/
+}
+#dashboard .content{
+	background:#e3e3e3;
+	height: 100%;
+	padding: 1% 5%;
+	border: solid 1px white;
+	overflow: scroll !important;
+	position: relative;
+}
+button.minimize{
+	position: absolute;
+	right:2%;
+	top:2%;
+	border: 0;
+	background: transparent;
+}
+button.minimize:hover i{
+	color:#d35400;
+}
+#dashboard .content .thumbnail{
+	position: relative;
+	z-index: 4;
+	border-radius:0;
+	transition: all 1s ease;
+}
+
+#dashboard .content .thumbnail:hover{
+	-ms-transform: scale(1.15); /* IE 9 */
+   	-webkit-transform: scale(1.15); /* Safari */
+    transform: scale(1.15);
+    z-index: 5;
+}
+#dashboard .content .thumbnail .availabilityStatus{
+	z-index: -1;
+	background: transparent;
+
+}
+#dashboard .content .thumbnail .availabilityStatus i{
+	color:transparent;
+}
+#dashboard .content .no-show .availabilityStatus{
+	position: absolute;
+	top:0;
+	left: 0;
+	width:100%;
+	height: 100%;
+	background: rgba(0,0,0,0.9);
+	z-index: 4;
+}	
+#dashboard .content .no-show .availabilityStatus i{
+	color:white;
+	margin-top: 15%;
+}
+#dashboard .content .thumbnail .caption{
+	color:white;
+}
+#problems .thumbnail{
+	background: url("../img/dashboard/avatar-thumbnail.jpg");
+	background-size: cover;
+}
+#openSource .thumbnail{
+	background: url("../img/dashboard/Octocat.jpg");
+	background-size: cover;
+}
+#dashboard #problems,#dashboard #openSource,#dashboard #wall{
+	height:100%;	
+	padding:0 1%;
+}
+#dashboard #problems{
+
+}
+#dashboard #openSource{
+
+}
+#dashboard #wall{
+
+}
