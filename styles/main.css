@@ -1,6 +1,6 @@
 .fixedHeader{	
     width:100%;
-	height:15vh;
+	height:10vh;
 	position: fixed;
 	top:0;
 	z-index: 100;
@@ -12,6 +12,25 @@
 	width:150px;
 	margin-left:5%;
 }
+.loginForm{
+	position: absolute;
+	margin-top: 1%;
+	top:10%;
+	right:10%;
+	color:black;
+}
+.loginForm button{
+	background: rgba(255,0,0,0.6);
+}
+.signUp{
+	position: absolute;
+	top:16%;
+	margin-top: 1%;
+	right:2%;
+}
+#signUpBtn{
+	color:rgba(255,0,0,0.6);
+}
 .parallax{
 	height:85vh;
 	z-index: 2;
@@ -20,12 +39,130 @@
   	background-attachment: fixed;
   	background-size: cover;
 }
+.hook{
+	position:absolute;
+	top:25%;
+	left:10%;
+	font-size: 45pt;
+	/*text-transform: uppercase;*/
+	letter-spacing: 2px;
+	color:white;
+}
+.desc{
+	position:absolute;
+	top:50%;
+	left:10%;
+	font-size: 30pt;
+	/*color:white;*/
+}
+#hook1,#desc1{
+	color:rgba(255,0,0,0.6);
+	background: white;
+}
+#hook1{
+	top:60%;
+	left:5%;
+}
+#desc1{
+	top:75%;
+}
+.mild-text{
+	top:12%;
+	position: absolute;
+	left:4%;
+	font-size: 13pt;
+	/*text-decoration: underline;*/
+	color:rgba(255,0,0,0.4);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	/*background: white*/
+}
+.mild-text hr{
+	border-top: solid 1px rgba(255,0,0,0);
+}
+.footer-text{
+	color:rgba(255,0,0,0.6);
+	background: white;
+	top:90%;
+	position: absolute;left:50%;
+	text-align: center;
+	padding: 10px 40px;
+}
+.highlight-text{
+	color:white;
+	top:20%;
+	position: absolute;
+	left:2%;
+	font-size: 15pt;
+	text-transform: uppercase;
+	background: rgba(255,0,0,0.5);
+	padding: 10px;
+}
+#hook2{
+	color:rgba(255,0,0,0.5);
+	top:25%;
+	font-size:20pt;
+}
+.pipeline{
+	position: absolute;
+	height:240px;
+	width: 100%;
+	left:40%;
+	top:5%;
+}
+.pipeline img{
+	height:240px;
+}
+#desc2{
+	color:rgba(255,0,0,0.5);
+	top:35%;
+	left:20%;
+}
+#desc3{
+	background:rgba(255,0,0,0.5);
+	top:90%;
+	left:0%;
+	text-align: right;
+	width:100%;
+	font-size:15pt;
+	padding-bottom: 10%;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color:white;
+
+}
+#desc4{
+	color:rgba(255,0,0,0.5);
+	top:30%;
+}
+.item{
+	position: absolute;
+	top:43%;
+	width: 100%;
+}
+
+#item1,#item2,#item3{
+	height: 230px;
+	/*border-radius: 50%;*/
+	border:solid 1px white;
+	background-size: cover;
+}
+#item1{
+	background-image: url(../img/fontPage/perfume.jpg);
+}
+#item2{
+	background-image: url(../img/fontPage/sale.jpg);
+}
+#item3{
+	background-image: url(../img/fontPage/voucher.jpg);	
+}
 #block1{
-	margin-top: 15vh;
-	background-image: url(../img/wallpapers/github.png);
+	margin-top: 10vh;
+
+	background-image: url(../img/fontPage/back1.jpg);
 }
 #block2{
-	background-image: url(../img/wallpapers/HiyRP.jpg);
+	/*background-image: url(../img/wallpapers/HiyRP.jpg);*/
 }
 #block3{
 	background-image: url(../img/wallpapers/ZHUqC.jpg);
