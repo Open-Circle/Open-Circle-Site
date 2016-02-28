@@ -1,14 +1,23 @@
 .container{
 	font-size: 18px;
-	width: 100%;
+	width: 95%;
 	padding: 0;
 }
 .profileInfo{ 
 	font-size: 20px;
 	color:white	;
-	background-color: #dd5555;
+	background-color: rgba(255, 0, 0, 0.6);
+	min-height: 100%;
 	/*padding: 10px;*/
 	}
+.profileSeg{
+	padding: 5px;
+	margin-left: 3%;
+}
+.profileImg{
+	margin-left: 35%;
+	
+}
 .button{
 	font-size: 10px;
 }
@@ -16,6 +25,26 @@ input[type=text]:focus {
     background-color: #eeeedd;
 }
 .pad{
+		/*padding-top: 10px;*/
+	}
+.mi{
+		margin-left: 2%;
+	}
+
+.segment{
+		background-color: dddddd;
+		border-top-width: 3px;
+		border-top-style: solid;
+		border-top-color: rgba(255, 0, 0, 0.6);
+		border-right-style: solid;
+		border-right-width: 25px;
+		border-right-color: rgba(255, 0, 0, 0.6);
+		vertical-align: middle;
+		border-right: 0;
+		height: 100%;
+	}
+	div{
+		/*height: 100%;
 	display: flex;*/
 }
 .col{
