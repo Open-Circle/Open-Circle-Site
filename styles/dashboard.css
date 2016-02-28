@@ -42,7 +42,7 @@ background: -webkit-linear-gradient(to left, #fd746c , #ff9068); /* Chrome 10-25
 background: linear-gradient(to left, #fd746c , #ff9068); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
 }
 .navbar-fixed-top{
-	border-bottom: solid 3px red;     
+	/*border-bottom: solid 3px red;     */
 }
 nav .btn, nav a{
 	border:none;
@@ -127,7 +127,7 @@ a.btn:hover{
 	padding: 0;
 }
 #dashboard{
-	height:85vh;
+	/*height:85vh;*/
 	margin-top: 10%;
 	/*z-index: 0;*/
 }
@@ -135,8 +135,8 @@ a.btn:hover{
 	background:#e3e3e3;
 	height: 100%;
 	padding: 1% 5%;
-/*	border: solid 1px white;*/
-	overflow: scroll !important;
+	border-top: solid 3px rgba(255,0,0,0.6);
+	/*overflow: scroll !important;*/
 	position: relative;
 }
 button.minimize{
