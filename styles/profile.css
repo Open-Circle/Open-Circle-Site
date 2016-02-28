@@ -1,9 +1,10 @@
 .container{
 	font-size: 18px;
+	margin-top: 10vh;
 	width: 100%;
 	padding: 0;
 }
-.profileInfo{ 
+.profileInfo{
 	font-size: 20px;
 	color:white	;
 	background-color: #dd5555;
