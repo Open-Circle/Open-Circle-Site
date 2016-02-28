@@ -16,25 +16,6 @@ input[type=text]:focus {
     background-color: #eeeedd;
 }
 .pad{
-	/*padding-top: 10px;*/
-}
-.mi{
-	/*padding-left: 10px;
-	padding-right: 10px;*/
-}
-.segment{
-	background-color: dddddd;
-	border-top-width: 3px;
-	border-top-style: solid;
-	border-top-color: ee5555;
-	border-right-style: solid;
-	border-right-width: 25px;
-	border-right-color: ee5555;
-	vertical-align: middle;
-	border-right: 0;
-}
-div{
-	/*height: 100%;
 	display: flex;*/
 }
 .col{
