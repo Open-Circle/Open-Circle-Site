@@ -1,5 +1,9 @@
 #content {
-  margin: 2vh 15vw;
+  margin: 10vh 15vw;
+}
+
+a {
+  color: rgba(255,0,0,0.6);
 }
 
 #open-source-icon {

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ./partials/global-head %>
+  <link rel="stylesheet" type="text/css" href="../styles/profile.css">
+  <title>Open Circle</title>
+
+</head>
+<body>
+
+  <% include ./partials/header %>
+  <div class="container">
+		<div class="col-sm-4 col-md-4 col-lg-4 profileInfo">
+			<div class="row profileImg">
+				<img src="../img/profile/profileImage.jpg" style="width: 125px; height: 125px">
+			</div>
+			<div class="row profileSeg">
+				Welcome back aly796!
+				<br />
+			</div>
+			<div class="row profileSeg">
+				Name: Alison White
+			</div>
+			<div class="row profileSeg">
+				GitHub: aly796
+			</div>
+			<div class="row profileSeg">
+				About Alison...
+			</div>
+			<div class="row profileSeg">
+				(Description
+				<br />.
+				<br />.
+				<br />.)
+			</div>
+			<div class="row profileSeg">
+				<b>Known Languages</b>
+						<ul>
+							<li>JavaScript</li>
+							<li>HTML</li>
+							<li>C++</li>
+							<li>Ruby</li>
+						</ul>
+			</div>
+			<div class="row profileSeg">
+				<b>Special Skills</b>
+					<ul>
+						<li>Designing</li>
+						<li>Story Boarding</li>
+					</ul>
+			</div>
+			<div class="row profileSeg">
+				<a href="editprofile"><button button="submit" class="btn btn-default">Edit</button></a>
+				<a href="publicprofile"><button button="submit" class="btn btn-default">View as Guest</button></a>
+
+			</div>
+		</div>
+		<div id="current" class="cols-sm-4 col-md-4 col-lg-4 segment">
+			<div id="title" class="row">
+				<b>Current Projects</b>
+			</div>
+			<div class="row">
+					<div class="col-lg-3 col-sm-3 col-md-3">
+						<img src="../img/dashboard/avatar-thumbnail.jpg" style="width: 100px; height: 100px">
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-9">
+						<b>Saving the World One Life at a Time</b>
+						<br />Submitted By: jjason92
+						<br />
+					</div>
+			</div>
+					<br />
+			<div class="row">
+					<div class="col-lg-3 col-md-3 col-sm-3">
+						<img src="../img/dashboard/octocat.png" style="width: 100px; height: 100px">
+					</div>
+					<div class="col-lg-9 col-md-9 col-sm-9">
+						Don't overwhelm yourself with projects!
+					</div>
+			</div>
+		</div>
+		<div id="finished" class="col-sm-4 col-md-4 col-lg-4 segment">
+					<div id="title" class="row">
+					<b>Finished Projects</b>
+					</div>
+					<div class="row project">
+						<div class="col-lg-3 col-md-3 col-sm-3">
+							<img src="../img/dashboard/avatar-thumbnail.jpg" style="width: 100px; height: 100px">
+						</div>
+						<div class="col-lg-9 col-md-9 col-sm-9">
+							<b>Make Your Own Avatar</b>
+							<br />Start your coding career with an interactive sprite.
+						</div>
+					</div>
+					<br />
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-3">
+							<img src="../img/dashboard/octocat.png" style="width: 100px; height: 100px">
+						</div>
+						<div class="col-lg-9 col-md-9 col-sm-9">
+							More Projects to be Completed!
+						</div>
+					</div>
+				</div>
+	</div>
+  <% include ./partials/global-scripts %>
+</body>
+</html>

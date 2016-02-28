@@ -11,7 +11,7 @@ app.use("/scripts", express.static('scripts'));
 app.use("/img", express.static('img'));
 
 app.get('/', function(req, res) {
-    res.render('pages/index');
+    res.render(__dirname + '/index');
 });
 
 // TODO: Make it send 404 HTTP code instead of that gross error

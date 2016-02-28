@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ./partials/global-head %>
+  <link rel="stylesheet" href="../styles/signin.css" />
+  <title>Open Circle</title>
+
+</head>
+<body>
+
+  <% include ./partials/header %>
+  <section class="container">
+      <div class="login">
+
+        <table class="table" >
+    <h1>Login to OpenCode</h1><!--
+    <img src="https://pbs.twimg.com/profile_images/554631714970955776/uzPxPPtr.jpeg"  class="img-circle" alt="Avatar" /> -->
+      <tbody>
+        <tr>
+          <td><label>Username<span class="req"></label></td>
+          <td><label><input type="text" required autocomplete="off" /></label></td>
+        </tr>
+        <tr>
+          <td><label>
+                Password<span class="req"></span><label></label></td>
+          <td><input type="password"required autocomplete="off"/></td>
+        </tr>
+
+
+
+
+      </tbody>
+    </table>
+      </div>
+      <a href="dashboard.html"><button type="submit" class="button button-block" style="background-color: green"/>Get Started</button></a>
+      <div class="login-help">
+        <p>Forgot your password? <a href="forgotpassword.html">Click here to reset it</a>.</p>
+      </div>
+    </section>
+  <% include ./partials/global-scripts %>
+</body>
+</html>

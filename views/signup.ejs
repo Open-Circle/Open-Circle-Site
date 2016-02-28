@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <% include ./partials/global-head %>
+  <link rel="stylesheet" href="../styles/signup.css" />
+  <title>Open Circle</title>
+
+</head>
+<body>
+
+  <% include ./partials/header %>
+
+  <div class="container" style="padding:200px;">
+
+    <table class="table" >
+     <h1>  Sign Up for Free </h1>
+      <tbody>
+        <tr>
+          <td><label>First Name:<span class="req"></td>
+          <td><input type="text" required autocomplete="off" /></td>
+        </tr>
+        <tr>
+          <td><label>
+                Last Name:<span class="req"></span></td>
+          <td><input type="text"required autocomplete="off"/></td>
+        </tr>
+       <tr>
+          <td><label>
+                Email Address:<span class="req"></span></td>
+          <td><input type="text"required autocomplete="off"/></td>
+        </tr>
+        <tr>
+          <td><label>
+                Phone Number:<span class="req"></span></td>
+          <td><input type="text"required autocomplete="off"/></td>
+        </tr>
+        <tr>
+          <td><label>
+                Password<span class="req"></span></td>
+          <td><input type="password"required autocomplete="off"/></td>
+        </tr>
+         <tr>
+          <td><label>
+                GitHub Account Name:<span class="req"></span></td>
+          <td><input type="text"required autocomplete="off"/></td>
+        </tr>
+      </tbody>
+
+    </table>
+    <h5>Do not have a GitHub Account? <a href="https://github.com">Create New<h5>
+
+
+     <a href="dashboard.html"><button type="submit" class="button button-block" style="background-color: green">Get Started</button></a>
+  </div>
+  <% include ./partials/global-scripts %>
+</body>
+</html>

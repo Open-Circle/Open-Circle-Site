@@ -1,22 +1,23 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Open Circle - Submit Open Source Project Task</title>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-  <link rel="stylesheet" href="../styles/openSource.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <% include ./partials/global-head %>
+  <link rel="stylesheet" href="../styles/opensource.css" />
+  <title>Open Circle</title>
+
 </head>
 <body>
 
+  <% include ./partials/header %>
   <div id="content">
     <div class="row">
-      <div class="col-sm-1"><a href="./dashboard.html"><i class="fa fa-arrow-circle-left fa-3x h1"></i></a></div>
+      <div class="col-sm-1"><a href="./dashboard"><i class="fa fa-arrow-circle-left fa-3x h1"></i></a></div>
       <div class="col-sm-11"><h1>Submit Open Source Task</h1><hr></div>
     </div>
 
     <div class="row">
       <div class="col-sm-12">
-        <form role="form" action="#" onsubmit="return submitNewOSSTask(this);">
+        <form role="form" action="" onsubmit="return submitNewOSSTask(this);">
           <div class="form-group">
             <label for="project-name">Project Name:</label>
             <input type="text" class="form-control" id="project-name" placeholder="Name...">
@@ -50,15 +51,12 @@
               <option>Ruby</option>
             </select>
           </div>
-          <button type="submit" value="Submit" class="btn btn-primary btn-block">Submit New Task</button>
+          <button type="submit" value="Submit" class="btn btn-danger btn-block">Submit New Task</button>
         </form>
       </div>
     </div>
 
   </div>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="../scripts/newOpenSource.js"></script>
+  <% include ./partials/global-scripts %>
 </body>
 </html>

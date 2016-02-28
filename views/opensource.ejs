@@ -1,16 +1,17 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Open Circle - Coder Dojo - Open Source Project</title>
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <% include ./partials/global-head %>
   <link rel="stylesheet" href="../styles/opensource.css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <title>Open Circle - Coder Dojo - Open Source Project</title>
+
 </head>
 <body>
 
+  <% include ./partials/header %>
   <div id="content">
     <div class="row">
-      <div class="col-sm-1"><a href="./dashboard.html"><i class="fa fa-arrow-circle-left fa-3x h1"></i></a></div>
+      <div class="col-sm-1"><a href="./dashboard"><i class="fa fa-arrow-circle-left fa-3x h1"></i></a></div>
       <div class="col-sm-11"><h1>Open Source Task</h1><hr></div>
     </div>
 
@@ -25,7 +26,7 @@
       </div>
 
       <div class="col-sm-1">
-        <a href="https://github.com/CoderDojo/community-platform/issues/698" id="gh-button" class="btn btn-info h2" role="button">See on GitHub</a>
+        <a href="https://github.com/CoderDojo/community-platform/issues/698" id="gh-button" class="btn btn-danger h2" role="button">See on GitHub</a>
       </div>
 
     </div>
@@ -69,7 +70,7 @@
     </div>
 
     <div class="row">
-      <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#pull-request-modal">Submit Pull Request</button>
+      <button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-target="#pull-request-modal">Submit Pull Request</button>
 
       <!-- Modal -->
       <div id="pull-request-modal" class="modal fade" role="dialog">
@@ -100,7 +101,7 @@
                   <label for="pull-request">Link to Pull Request:</label>
                   <input type="pull-request" class="form-control" id="pull-request" placeholder="Paste link here...">
                 </div>
-                <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
+                <button type="submit" class="btn btn-danger" data-dismiss="modal">Submit</button>
               </form>
 
             </div>
@@ -111,8 +112,6 @@
     </div>
 
   </div>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <% include ./partials/global-scripts %>
 </body>
 </html>
