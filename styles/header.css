@@ -1,0 +1,33 @@
+.fixedHeader{	
+    width:100%;
+	height:10vh;
+	position: fixed;
+	top:0;
+	z-index: 100;
+	background: white;
+}
+.brand{
+	background: rgba(255,0,0,0.6);
+	height:100%;
+	width:150px;
+	margin-left:5%;
+}
+.loginForm{
+	position: absolute;
+	margin-top: 1%;
+	top:10%;
+	right:10%;
+	color:black;
+}
+.loginForm button{
+	background: rgba(255,0,0,0.6);
+}
+.signUp{
+	position: absolute;
+	top:16%;
+	margin-top: 1%;
+	right:2%;
+}
+#signUpBtn{
+	color:rgba(255,0,0,0.6);
+}
