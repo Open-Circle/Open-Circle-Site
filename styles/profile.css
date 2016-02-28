@@ -1,11 +1,13 @@
 .container{
 	font-size: 18px;
-	}
+	width: 95%;
+}
 .profileInfo{ 
-	background-color: #dddddd;
-	font-size: 22px;{
-	
-
+	font-size: 20px;
 	}
-.colAlt{	background-color: #dddddd;
-	}
+.button{
+	font-size: 10px;
+}
+input[type=text]:focus {
+    background-color: #eeeedd;
+}
