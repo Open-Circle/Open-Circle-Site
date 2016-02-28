@@ -4,39 +4,112 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="../styles/openSource.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
+
   <div id="content">
     <div class="row">
+      <div class="col-sm-1"><a href="./dashboard"><i class="fa fa-arrow-circle-left fa-3x h1"></i></a></div>
+      <div class="col-sm-11"><h1>Open Source Task</h1><hr></div>
+    </div>
+
+    <div class="row">
+
       <div class="col-sm-1">
-        <img id="open-source-icon" class="h1" src="../img/openSource/CoderDojo.png">
+        <img id="open-source-icon" class="h2" src="../img/openSource/CoderDojo.png">
       </div>
+
       <div class="col-sm-10">
-        <h1>Coder Dojo <small>Filter Users as a Champion</small></h1>
+        <h2>Coder Dojo <small>Filter Users as a Champion</small></h2>
       </div>
+
       <div class="col-sm-1">
-        <button type="button" class="btn btn-info">See on GitHub</button>
+        <a href="https://github.com/CoderDojo/community-platform/issues/698" id="gh-button" class="btn btn-info h2" role="button">See on GitHub</a>
       </div>
+
     </div>
+
+
     <div class="row">
+
       <div class="col-sm-12 well">
-        <h2>Description</h2>
-        On the manage users page, it would be useful to have the ability to search for a specific user by name or by user type e.g show all ninjas over 13. Currently all users are listed in random (non alphabetical order. This feature should be accessible by anyone with Dojo admin / ticketing permissions.
+        <h3>Description</h3>
+        <p>
+          On the manage users page, it would be useful to have the ability to search for a specific user by name or by user type e.g show all ninjas over 13. Currently all users are listed in random (non alphabetical order. This feature should be accessible by anyone with Dojo admin / ticketing permissions.
+        </p>
       </div>
     </div>
     <div class="row">
+
       <div class="col-sm-8 well">
-        <h2>Hints</h2>
-        For more information on creating test data so you can see the manage users page, see <a href="https://github.com/CoderDojo/community-platform/blob/master/creating-test-data.md">this doc</a>. The main <a href="https://github.com/CoderDojo/community-platform/blob/master/README.md">readme file</a> is here.
+        <h3>Hints</h3>
+        <p>
+          For more information on creating test data so you can see the manage users page, see <a href="https://github.com/CoderDojo/community-platform/blob/master/creating-test-data.md">this doc</a>. The main <a href="https://github.com/CoderDojo/community-platform/blob/master/README.md">readme file</a> is here.
+          <ul>
+            <li><a href="https://github.com/CoderDojo/cp-zen-platform/blob/master/web/public/js/controllers/manage-dojo-users-controller.js">The manage users controller is here</a></li>
+            <li><a href="https://github.com/CoderDojo/cp-zen-platform/blob/master/web/public/templates/dojos/manage-dojo-users.dust">The template for this controller is here</a></li>
+            <li>You'll also need to take a look <a href="https://github.com/CoderDojo/cp-users-service/blob/master/users.js">at the users service</a>, the backend section of the system.</li>
+          </ul>
+        </p>
       </div>
+
       <div class="col-sm-4">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML</li>
-          <li>Javascript</li>
-        </ul>
+        <div class="panel panel-default">
+          <div class="panel-heading"><h3>Skills</h3></div>
+          <div class="panel-body">
+            <ul>
+              <li>HTML</li>
+              <li>Javascript</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+      <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#pull-request-modal">Submit Pull Request</button>
+
+      <!-- Modal -->
+      <div id="pull-request-modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Submit your pull request</h4>
+            </div>
+            <div class="modal-body">
+              <p>
+                To submit your pull request, make sure you have done the following:
+                <ol>
+                  <li>Create a fork of the repository</li>
+                  <li>Edit the necessary files on your local computer</li>
+                  <li>Test your changes locally</li>
+                  <li>Commit your changes to the fork</li>
+                  <li>Submit your pull request</li>
+                </ol>
+
+                Once you have done these steps, you may provide the link to the pull request to track your contribution on Open Circle.
+              </p>
+
+              <form role="form">
+                <div class="form-group">
+                  <label for="pull-request">Link to Pull Request:</label>
+                  <input type="pull-request" class="form-control" id="pull-request" placeholder="Paste link here...">
+                </div>
+                <button type="submit" class="btn btn-primary" data-dismiss="modal">Submit</button>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
       </div>
     </div>
+
   </div>
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
