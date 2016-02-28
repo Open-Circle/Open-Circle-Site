@@ -101,14 +101,16 @@
 #hook2{
 	color:rgba(255,0,0,0.5);
 	top:25%;
-	font-size:20pt;
+	font-size:18pt;
+	/*text-transform: uppercase;*/
+	letter-spacing: 3px;
 }
 .pipeline{
 	position: absolute;
 	height:240px;
 	width: 100%;
 	left:40%;
-	top:5%;
+	top:6%;
 }
 .pipeline img{
 	height:240px;
@@ -117,6 +119,7 @@
 	color:rgba(255,0,0,0.5);
 	top:35%;
 	left:20%;
+	font-size: 23pt;
 }
 #desc3{
 	background:rgba(255,0,0,0.5);
@@ -165,7 +168,32 @@
 	/*background-image: url(../img/wallpapers/HiyRP.jpg);*/
 }
 #block3{
-	background-image: url(../img/wallpapers/ZHUqC.jpg);
+	background-image: url(../img/fontPage/girl2.png);
+}
+#hook3{
+	/*background: white;*/
+	/*color:rgba(255,0,0,0.6);*/
+	color:white;
+	/*padding: 1% 2%; */
+}
+#desc5{
+	top:50%;
+	left:40%;
+	color: white;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	border:solid 1px transparent;
+	/*color:rgba(255,0,0,0.3);*/
+	font-size: 12pt;
+
+}
+#joinNow{
+	position: absolute;
+	top:85%;
+	left:50%;
+	padding: 10px 2%;
+	background: #e74c3c;
+	color:white;
 }
 #block4{
 	background-image: url(../img/wallpapers/u89DP.jpg);
