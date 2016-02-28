@@ -1,15 +1,29 @@
+body{
+	background-color: white;
+}
 .container{
 	font-size: 18px;
 	margin-top: 10vh;
-	width: 100%;
+	width: 95%;
 	padding: 0;
+	max-height: 100vh;
 }
 .profileInfo{
 	font-size: 20px;
 	color:white	;
-	background-color: #dd5555;
+	background-color: rgba(255, 0, 0, 0.6);
+	min-height: 100%;
+	overflow: scroll;
 	/*padding: 10px;*/
 	}
+.profileSeg{
+	padding: 5px;
+	margin-left: 3%;
+}
+.profileImg{
+	margin-left: 35%;
+
+}
 .button{
 	font-size: 10px;
 }
@@ -17,11 +31,31 @@ input[type=text]:focus {
     background-color: #eeeedd;
 }
 .pad{
-	display: flex;*/
+		/*padding-top: 10px;*/
+	}
+.scrollSec{
+	overflow: scroll;
+}
+
+.segment{
+		background-color: dddddd;
+		border-top-width: 3px;
+		border-top-style: solid;
+		border-top-color: rgba(255, 0, 0, 0.6);
+		border-right-style: solid;
+		border-right-width: 25px;
+		border-right-color: rgba(255, 0, 0, 0.6);
+		vertical-align: middle;
+		border-right: 0;
+		height: 100%;
+	}
+div{
+		/*height: 100%;
+		display: flex;*/
 }
 .col{
-	vertical-align: middle;
-	/*flex: 1;*/
+	max-height: 100%;
+	min-height: 100%
 }
 .row{
 	vertical-align: middle;
