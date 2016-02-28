@@ -8,20 +8,84 @@
 
 </head>
 <body>
-  <div class="container">
-  	<div id="profile" class=" jumbotron row">
-  		<div class="profilePicture col-lg-3 col-md-3 col-sm-3">
-  		</div>
-  		<div class="info col-lg-4 col-md-4 col-sm-4">
-  			<div class="level col-lg-12 col-md-12 col-sm-12">Level : </div>
-  			<div class="level col-lg-12 col-md-12 col-sm-12">Karma Points : </div>
-  		</div>
-  		<div class="links col-lg-5 col-md-5 col-sm-5">
-  			<div class="website col-lg-12 col-md-12 col-sm-12">Website:</div>
-  			<div class="github col-lg-12 col-md-12 col-sm-12">Github:</div>
-  		</div>
-  		<div class="row" id="minimize">Add A button</div>	
-  	</div>
+  <div class="container dashBody">
+  	<nav class="navbar  navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		       <span class="sr-only">Toggle navigation</span>
+		       <span class="icon-bar"></span>
+		       <span class="icon-bar"></span>
+		       <span class="icon-bar"></span>
+		    </button>
+	        <a class="navbar-brand " href="#">
+	      		<div class="avatar"><h3>AVATAR</h3></div>
+	      	</a>
+	      	<div class="container-fluid pullLeft" id="profilePicture">
+	      		<p class="navbar-text ">Signed in as <a href="#" class="navbar-link">Mark Otto</a></p>
+	      	</div>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <!-- <div class="col-lg-1 col-md-1 col-sm-1"></div> -->
+	      <ul class="nav navbar-nav">
+	        <li class="active"><a href="#">
+	        	<h4>
+ 					<p><i class="fa fa-level-up"></i>&nbsp;Level </p>
+ 					<div class="value">2</div>
+				</h4>
+	        	<span class="sr-only">(current)</span></a></li>
+	        <li>
+	        	<a href="#">
+			        <h4>
+						<p><i class="fa fa-star"></i>&nbsp;Karma</p>
+						<div class="value">75</div>
+		  			</h4>
+	        	</a>
+	    	</li>
+	    	<li>
+	        	<a href="#">
+			        <h4>
+						<p><i class="fa fa-globe"></i>&nbsp;Website</p>
+						<div class="value">myWeb.com</div>
+		  			</h4>
+	        	</a>
+	    	</li>
+	    	<li>
+	        	<a href="#">
+			        <h4>
+						<p><i class="fa fa-github"></i>&nbsp;Github</p>
+						<div class="value">ip9636</div>
+						
+		  			</h4>
+	        	</a>
+	    	</li>
+	    	<li class="col-md-push-5 top-middle">
+	        	<a href="#">
+	        		<button class="navButton"><h4>Shop Products</h4></button>
+			        <!-- <h4>
+			        	<div class="top-space"></div>
+						<p class="top-middle"><i class="fa fa-shopping-basket"></i>&nbsp;Products</p>
+						<div class="value">&nbsp;</div>
+		  			</h4> -->
+	        	</a>
+	    	</li>
+	    	<li class="col-md-push-5 top-middle">
+	        	<a href="#">
+	        		<button class="navButton"><h4>Get Bonus</h4></button>
+			       <!--  <h4>
+			        	<div class="top-space"></div>
+						<p class="top-middle"><i class="fa fa-gift"></i></i>&nbsp;Bonus</p>
+						<div class="value">&nbsp;</div>
+		  			</h4> -->
+	        	</a>
+	    	</li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
   	<div id="dashboard" class="row">
   		<div id="problems" class="col-lg-4 col-md-4 col-sm-4">
   			<div class="content">
@@ -118,11 +182,54 @@
 					</a>
 				</li>
 				</ul>
+				<br>
 				<!-- Tab panes -->
 				<div class="tab-content">
-				<div role="tabpanel" class="tab-pane active" id="inProgressProjects">home</div>
+				<div role="tabpanel" class="tab-pane active" id="inProgressProjects">
+					<div class="thumbnail">
+					    <div class="caption">
+					    	<button class="pinToggle"><i class="fa fa-thumb-tack fa-2x"></i></button>
+					    	<h3>Yeoman generator for making mean apps</h3>
+					        <p>Want to make a difference. Start doing open source</p>
+					        <p>
+					        	<a href="#" class="btn" role="button">Take me there</a> 
+					        </p>	
+				      	</div>
+				    </div><!-- thumbnail -->
+				    <div class="thumbnail">
+					    <div class="caption">
+					    	<button class="pinToggle"><i class="fa fa-thumb-tack fa-2x"></i></button>
+					    	<h3>HTML5 Game</h3>
+					        <p>Want to make a difference. Start doing open source</p>
+					        <p>
+					        	<a href="#" class="btn" role="button">Take me there</a> 
+					        </p>	
+				      	</div>
+				    </div><!-- thumbnail -->
+
+
+
+				</div>
 				<div role="tabpanel" class="tab-pane" id="availableProjects">
 					<div class="thumbnail">
+					    <div class="caption">
+					    	<h3>SVG Audio Visualizer</h3>
+					        <p>Want to make a difference. Start doing open source</p>
+					        <p>
+					        	<a href="#" class="btn" role="button">Read More</a> 
+					        </p>	
+				      	</div>
+				    </div><!-- thumbnail -->
+				    <div class="thumbnail">
+					    <div class="caption">
+					    	<h3>HTML5 Canvas Game</h3>
+					        <p>Want to make a difference. Start doing open source</p>
+					        <p>
+					        	<a href="#" class="btn" role="button">Read More</a> 
+					        </p>	
+				      	</div>
+				    </div><!-- thumbnail -->
+				    <div class="thumbnail">
 					    <div class="caption">
 					    	<h3>Coder Dojo Filter Users as a Champion</h3>
 					        <p>Want to make a difference. Start doing open source</p>
