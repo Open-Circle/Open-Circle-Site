@@ -1,0 +1,24 @@
+{
+  "name": "opencircle",
+  "version": "1.0.0",
+  "description": "WiCHacks Project - February 27-28, 2016",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/open-circle/open-circle-site.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/open-circle/open-circle-site/issues"
+  },
+  "homepage": "https://github.com/open-circle/open-circle-site#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5",
+    "sqlite3": "^3.1.1"
+  }
+}
